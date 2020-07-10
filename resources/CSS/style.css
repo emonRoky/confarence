@@ -1,0 +1,391 @@
+/*--------------------------------------------*/
+/*  BASIC SETUP*/
+/*--------------------------------------------*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato','Aria',sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+
+/*--------------------------------------------*/
+/*REUSABLE COMPONNENT*/
+/*--------------------------------------------*/
+
+
+
+
+/*-------HEADINGS------*/
+
+h1,
+h2,
+h3{
+    font-weight: 300;
+    text-transform: uppercase; 
+   
+}
+h1{
+    margin: 0;
+    font-size: 240%;
+    color: #fff;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
+h2{
+    font-size: 150%;
+    font-weight: 400;
+    word-spacing: 2px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+h3{
+    font-weight: 400;
+font-size: 100%;
+}
+.span{
+    /* font-weight: 400; */
+   color: #ffffff;
+}
+/*-------PARAGRAPHS------*/
+
+.p-header{
+    padding: 0 20%;
+    text-align: center;
+}
+p{
+    font-size: 80%;
+    margin-top: 10px;
+}
+
+/*-------LINKS------*/
+
+a:link,
+a:visited{
+    text-decoration: none;
+    color: #ffffff;
+    margin-bottom: 1px;
+    transition: color 0.3s;
+}
+a:hover,
+a:active{
+    color:#555;
+
+}
+
+
+/*-------BUTTON------*/
+.intro-btn:link,
+.intro-btn:visited{
+    background-color:#293F50 ;
+    border: 1px solid #FFFFFF;
+    margin-top: 20px;
+}
+.btn{
+    display: inline-block;
+    padding: 20px 30px;
+    font-weight: 300;
+    font-size: 90%;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #fff;
+    text-transform: uppercase;
+    -webkit-transition: background-color 0.2s,border 0.2s,color 0.2s;
+    transition: background-color 0.2s,border 0.2s,color 0.2s;
+
+}
+.intro-btn:hover,
+.intro-btn:active
+{
+    background-color: #ffffff;
+    transition: background-color 0.2s,border 0.2s,color 0.2s;
+
+}
+
+/*--------------------------------------------*/
+/*HEADER PART*/
+/*--------------------------------------------*/
+.main-header{
+    background: #293F50;
+    width: auto;
+    display: flex;
+    padding: 4% 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.nav-aria{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-end;
+} 
+
+.logo-text{
+    font-size: 270%;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+.main-nav{
+   display: flex;
+}
+ul li{
+    list-style: none;
+    font-weight: 400;
+    font-size: 65%;
+    margin-left: 30px;
+}
+.date-text{
+    font-size: 80%;
+}
+.header-box{
+    background-color: #293F50;
+    padding: 4% 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.span{
+    /* font-weight: 400; */
+   color: #ffffff;
+}
+
+/*--------------------------------------------*/
+/*gallery PART*/
+/*--------------------------------------------*/
+
+
+
+.gallery-section{
+    display: flex;
+    padding: 40px 15%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.gallery-section__item{
+    flex: 1;
+   flex-basis: 33.33%;
+    padding: 10px 2%;
+    justify-content: center;
+}
+
+.img{
+    max-width: 100%;
+    border-radius: 3%;
+}
+.img-title{
+    padding: 20px 0;
+}
+.item-title{
+    padding: 20px 0;
+}
+
+/*------------------------------------------------------------------------------------------------------*/
+                                /*Speckers.html*/ 
+/*------------------------------------------------------------------------------------------------------*/
+
+.spekers-header__box{
+   background-image: linear-gradient(to right, #a1d3b0, #f6f1d3);
+    padding: 4% 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.speaker{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 40px 12%;
+}
+
+.speacker-image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.specker-photo{
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    margin-top: -100px;
+}
+.speacker-contract{
+    border: 1px solid #dfe2e5;
+    padding: 5%;
+}
+.social{
+    margin-top: 20px;
+}
+ span{
+    font-weight: 400;
+    font-size: 70%;
+    color: #a9b2b9;
+}
+.dec{
+    padding-right: 6%;
+    margin-top: 10px;
+    font-size: 80%;
+}
+
+
+
+
+/*------------------------------------------------------------------------------------------------------*/
+                                /*Shedule.html*/ 
+/*------------------------------------------------------------------------------------------------------*/
+.section-shedules{
+    padding: 0 10%;
+}
+table{
+    padding: 30px 0;
+    width: 100%;
+}
+th,
+td {
+  padding-bottom: 25px;
+  vertical-align: top;
+}
+th {
+    padding-right: 25px;
+    text-align: right;
+    width: 20%;
+  }
+  td{
+      width: 40%;
+  }
+  thead{
+      line-height: 40px;
+  }
+  thead th {
+    color: #648880;
+    font-weight: 400;
+    font-size: 150%;
+  }
+  tbody th{
+    color: #a9b2b9;
+    font-size: 80%;
+    font-weight: 400;
+    padding-top: 25px;
+    text-transform: uppercase;
+  }
+  tbody td {
+    border-top: 1px solid #dfe2e5;
+    padding-top: 21px;
+  }
+  .schedule-offset{
+    color: #a9b2b9;
+  }
+  
+  
+  /*------------------------------------------------------------------------------------------------------*/
+                                /*vanue.html*/ 
+/*------------------------------------------------------------------------------------------------------*/
+.venue{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.map{
+    height: 100%;
+    padding: 5% 0;
+}
+iframe{
+    height: auto;
+    width: auto;
+}
+
+
+  /*------------------------------------------------------------------------------------------------------*/
+                                /*regester.html*/ 
+/*------------------------------------------------------------------------------------------------------*/
+
+.section-regester{
+    display: flex;
+    flex-direction: row;
+    padding: 40px 10%;
+}
+.regester-intro{
+    flex: 2;
+}
+.regester{
+    flex: 1;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+  .contract-form input,
+  .contract-form select,
+  .contract-form textarea {
+    border: 1px solid #c6c9cc;
+    border-radius: 5px;
+    color: #888;
+    display: block;
+    margin: 5px 0 27px 0;
+    padding: 5px 8px;
+  }
+  .contract-form input,
+  .contract-form textarea {
+    width: 100%;
+  }
+  .contract-form select {
+    height: 34px;
+    width: 60px;
+  }
+  .contract-form textarea {
+    height: 78px;
+  }
+  .attend, ul{
+      margin-top: 20px;
+  }
+  .section-regester ul li{
+        margin-top: 10px;
+       list-style: circle;
+  }
+  .section-regester li{
+   font-size: 80%;
+   font-weight: 400;
+}
+  
+/*--------------------------------------------*/
+/*Footer PART*/
+/*--------------------------------------------*/
+footer{
+    background-color: #293F50;
+    padding: 4% 0;
+    display: flex;
+    flex-direction: column;
+}
+.footer-nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.nav{
+    display: flex;
+    align-items: center;
+
+}

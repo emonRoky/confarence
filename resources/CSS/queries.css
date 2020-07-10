@@ -1,0 +1,123 @@
+
+/*-----sbig tablet  to 1200px (width smaller than the 1140px row)-----*/
+@media only screen and (max-width:1200px){
+   
+
+
+
+}
+
+/*-----small tablet  to big  tablet  :from 678 to 1023px-----*/
+@media only screen and (max-width:1023px){
+   
+
+
+
+}
+
+/*-----small phone to small tablet  :from 481 to 767px-----*/
+@media only screen and (max-width:767px){
+   
+
+}
+/*-----small phone :from 0 to 480px-----*/
+@media only screen and (max-width:480px){
+
+    .main-header {
+        display: flex;
+        flex-direction: column;
+    }
+    .logo-text{
+        font-size: 100%;
+        font-weight: 100;
+        letter-spacing: 1px;
+    }
+    .date-text{
+        font-size: 60%;
+    }
+     ul li{
+        list-style: none;
+        font-weight: 100;
+        font-size: 50%;
+        margin-left: 15px;
+    }
+    h2{
+        font-size: 100%;
+        margin-bottom: 10px;
+    }
+    .p-header{
+        padding: 0 10%;
+    }
+    .footer-nav{
+        display: flex;
+        flex-direction: column;
+        flex-flow: column-reverse;
+    
+    }
+    .gallery-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .p-footer{
+        font-size: 70%;
+    }
+    p{
+        font-size: 75%;
+    }
+    h3{
+        font-size: 90%;
+    }
+   .dec{
+       font-size: 60%;
+   }
+    span{
+    color: #a9b2b9;
+       font-weight: 400;
+       font-size: 50%;
+   }
+   .speaker{
+    padding: 40px 1%;
+}
+   .speacker-name{
+       font-weight: 400;
+       font-size: 70%;
+
+   }
+    .specker-photo{
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+        margin-top: -50px;
+    }
+    .speacker-contract{
+        padding: 2%;
+    }
+
+    .section-shedules{
+        padding: 0 1%;
+    }
+    thead th {
+        font-size: 100%;
+      }
+      tbody th{
+        font-size: 70%;
+      }
+      .venue{
+        display: flex;
+        flex-direction: column;
+        padding: 40px 0;
+    }
+    .map{
+       margin-top: 10px;
+    }
+
+    .section-regester li{
+        font-size: 60%;
+        font-weight: 400;
+     }
+     label{
+         font-weight: 400;
+         font-size: 60%;
+     }
+
+}
